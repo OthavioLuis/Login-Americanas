@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&family=Noto+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body::before {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/3576683/pexels-photo-3576683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content:'';
+    position: absolute;
+    opacity: 0.35;
+}
+
+img {
+    width: 230px;
+    margin-top: -12px;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background: red;
+    position: fixed;
+}
+
+.caixa{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    padding: 30px 70px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: rgb(61, 61, 61);
+}
+
+h3 {
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+}
+
+a {
+    font-size: 14px;
+    color: #c40000;
+}
+
+button a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+input {
+    margin: 07px  20px;
+    border: 0.5px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 150px;
+    outline: rgba(255, 0, 0, 0.288);
+    color: rgb(43, 43, 43);
+}
+input::placeholder {
+    color: rgb(112, 112, 112);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    width: 100px;
+    cursor: pointer;
+    background: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
